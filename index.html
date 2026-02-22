@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Elysia's Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Elysia Handini Wikantiyoso</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com/integr-AI-tion" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/elysia-handini-wikantiyoso-b1b998362/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:lysia1403@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--SECTION 1 :HERO-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hello, I'm Elysia!</h2>
+                <p>I am a student with a strong passion in artificial intelligence and data science.
+                    I love turning ideas into reality! Through my projects, I have built a solid foundation in machine learning, data analysis, and programming. I am always eager to learn new technologies and apply them to solve real-world problems. With a keen eye for detail and a commitment to excellence, I strive to create innovative solutions that make a positive impact. 
+                </p>
+
+                <div class="links">
+                    <a href="#achievements">
+                        <i class="fa-solid fa-medal"></i>
+                        <span>Achievements</span>
+                    </a>
+
+                    <a href="#experiences">
+                        <i class="fa-solid fa-seedling"></i>
+                        <span>Experiences</span>
+                    </a>
+
+                    <a href="#projects">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/my photo.jpg" alt="Elysia headshot">
+            </div>
+        </section>
+
+        <!--SECTION 2 :ACHIEVEMENTS-->
+        <section id="achievements" class="achievements-section">
+            <h2>My Achievements</h2>
+            <div class="text">
+                Here are several awards and recognitions in mathematics and science competitions that I have received :
+            </div>
+
+            <div class="container swiper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/csmc.jpg" alt="Card Image" class="card-image">
+                                <p class="badge distinction">Distinction Award</p>
+                                <h2 class="card-title">Canadian Senior Mathematics Contest 2025</h2>
+                                <button class="card-button" onclick="location.href='documents/csmc.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/emc.jpg" alt="Card Image" class="card-image">
+                                <p class="badge">Finalist</p>
+                                <h2 class="card-title">Eduversal Mathematics Competition 2025</h2>
+                                <button class="card-button" onclick="location.href='documents/emc.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/ispo.jpg" alt="Card Image" class="card-image">
+                                <p class="badge">Finalist</p>
+                                <h2 class="card-title">Indonesian Science Project Olympiad 2025 - Chemistry</h2>
+                                <button class="card-button" onclick="location.href='documents/ispo.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/opsi.jpg" alt="Card Image" class="card-image">
+                                <p class="badge">Semi-finalist</p>
+                                <h2 class="card-title">Olimpiade Penelitian Siswa Indonesia 2024 - MST</h2>
+                                <button class="card-button" onclick="location.href='documents/opsi.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/osbpi.jpg" alt="Card Image" class="card-image">
+                                <p class="badge gold">Gold Award</p>
+                                <h2 class="card-title">Olimpiade Sains dan Bahasa Pelajar Indonesia 2025 - Mathematics</h2>
+                                <button class="card-button" onclick="location.href='documents/osbpi.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/seamo.jpg" alt="Card Image" class="card-image">
+                                <p class="badge gold">Gold Award</p>
+                                <h2 class="card-title">Southeast Asian Mathematical Olympiad 2017</h2>
+                                <button class="card-button" onclick="location.href='documents/seamo.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/aimo.jpg" alt="Card Image" class="card-image">
+                                <p class="badge silver">Silver Award</p>
+                                <h2 class="card-title">Asia International Mathematical Olympiad 2018</h2>
+                                <button class="card-button" onclick="location.href='documents/aimo.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/ui innovation war.jpg" alt="Card Image" class="card-image">
+                                <p class="badge">Semi-finalist</p>
+                                <h2 class="card-title">UI Innovation War 2024</h2>
+                                <button class="card-button" onclick="location.href='documents/ui innovation war.pdf';">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        
+            <script src="script.js"></script>
+        </section>
+
+        <!--SECTION 3 :EXPERIENCES-->
+        <section id="experiences" class="experiences-section">
+            <h2 class="section-title">My Experiences</h2>
+            <div class="text">Outside of academics, I am actively involved in various extracurricular activities and community service initiatives!</div>
+            <div class="timeline">
+                <div class="box left-side">
+                    <img src="images/scifun logo.jpg">
+                    <div class="textbox">
+                        <h2>Weekend Science Workshop Volunteer</h2>
+                        <h3>SciFUN Yayasan UNEDO Berguru Kasih</h3>
+                        <small>Jul 2025 - Jan 2026</small>
+                        <p>Engaged in a weekly initiative to teach and serve underprivileged children across Jakarta and Tangerang organized by Yayasan UNEDO Berguru Kasih, a nonprofit organization. At times, I became a Masters of Ceremony to greet the children and taught science-related subjects to over 20 children every weekend.</p>
+                        <span class="left-side-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="box right-side">
+                    <img src="images/ecosystem logo.png">
+                    <div class="textbox">
+                        <h2>STEM Content Writer</h2>
+                        <h3>EcosySTEM</h3>
+                        <small>Aug 2025 - Present</small>
+                        <p>Wrote engaging STEM, specifically Mathematics, Physics, and Technology, content that had been posted on EcosySTEM's official instagram account (@ecosystem_org).</p>
+                        <span class="right-side-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="box left-side">
+                    <img src="images/ecosystem logo.png">
+                    <div class="textbox">
+                        <h2>Python Programming Tutor</h2>
+                        <h3>EcosySTEM</h3>
+                        <small>Jan 2026 - Present</small>
+                        <p>Taught basic Python programming to individuals ages 12-20 for two weeks, and was involved in the making of the teaching materials.</p>
+                        <span class="left-side-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="box right-side">
+                    <img src="images/ecosystem logo.png">
+                    <div class="textbox">
+                        <h2>Technology Committee Leader</h2>
+                        <h3>EcosySTEM</h3>
+                        <small>Feb 2026 - Present</small>
+                        <p>Chosen as the leader of the Technology Committee to lead members of the division, overseeing and creating tasks related to the technology committee initiatives.</p>
+                        <span class="right-side-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="box left-side">
+                    <img src="images/question mark.png">
+                    <div class="textbox">
+                        <h2>More coming soon...</h2>
+                        <span class="left-side-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--SECTION 4 : PROJECTS-->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <img src="images/digits cm.png">
+                    <label for="first">Handwritten Digit Recognition</label>
+                    <div class="content">
+                        <p>
+                            Using python, I created a machine learning model to recognize handwritten digits from scikit-learn's datasets. I learned to preprocess data, train models using multiclass logistic regression, and evaluate their performance through confusion matrix.
+                        </p>
+                        <a href="https://github.com/integr-AI-tion/Digit-Classifier-with-Logistic-Regression" class="btn">GitHub</a>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <img src="images/uni major cm.png">
+                    <label for="second">Students' University Major Choice Prediction</label>
+                    <div class="content">
+                        <p>
+                            Using machine learning's logistic regression algorithm, I developed a model to predict students' university major choices based on their interests, activities, and influences. This project was initially made with the intention of knowing whether students' backgrounds and preferences effect their decision towards university majors.
+                        </p>
+                        <a href="https://github.com/integr-AI-tion/University-Major-Choice-Prediction-with-Machine-Learning" class="btn">GitHub</a>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <img src="images/scores cm.png">
+                    <label for="third">Student Scores Prediction</label>
+                    <div class="content">
+                        <p>
+                            Using machine learning's linear regression algorithm, I developed a model to predict students' scores based on their study hours and absence days. This project aimed to identify key factors that influence academic performance and provide insights for improvement.
+                        </p>
+                        <a href="https://github.com/integr-AI-tion/Student-Scores-Prediction-with-Linear-Regression" class="btn">GitHub</a>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <img src="images/cf16 img.png">
+                    <label for="fourth">CompAI: optimizing supply chain distribution through groundbreaking feature</label>
+                    <div class="content">
+                        <p>
+                            Me and my teammate created this case solution to compete in a yearly competition called CompFest, held by the University of Indonesia in 2024. The challenge involved optimizing the supply chain of a coffee company, KopiCompFest. We proposed CompFoods-X, an AI-powered recommendation system that optimizes delivery time, product distribution, and future business strategy.
+                        </p>
+                        <a class="btn" onclick="location.href='documents/compfest 16.pdf';">PDF File (Indonesian ver.)</a>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <img src="images/cf17 img.png">
+                    <label for="fifth">Brewing Stability: leveraging business analytics to secure KopiCompFest's future</label>
+                    <div class="content">
+                        <p>
+                            Also for CompFest, this time in 2025, my teammate and I developed a comprehensive business analytics strategy for KopiCompFest. Our approach focused on leveraging data-driven insights to enhance operational efficiency, optimize resource allocation, and improve overall business performance.
+                        </p>
+                        <a class="btn" onclick="location.href='documents/compfest 17.pptx';">PPTX File (Indonesian ver.)</a>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" name="accordion" id="sixth">
+                    <img src="images/opsi img.png">
+                    <label for="sixth">Synthesis of ZnO Nanoparticles with Tea Leaf Extract (Camellia sinensis) as Reductant and Its Application as Antibacterial Agent Against Staphylococcus aureus Bacteria on Cotton Fabric</label>
+                    <div class="content">
+                        <p>
+                            In this project, my teammate and I explored the synthesis of zinc oxide (ZnO) nanoparticles using tea leaf extract as a green reductant. The synthesized nanoparticles were characterized using various techniques, and their antibacterial properties against Staphylococcus aureus bacteria on cotton fabric were evaluated.
+                        </p>
+                        <a class="btn" onclick="location.href='documents/opsi file.pdf';">PDF File (Indonesian ver.)</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--SECTION 5 :CONTACT-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Don't hesitate to reach out!
+                    <br>
+                    I'm always open to learning new opportunities and meaningful conversations ^_^
+                </div>
+
+                <form action="https://formsubmit.co/066e4f3a87ffe2277bfb0fc7766a08e9" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required placeholder="Name">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required placeholder="E-mail">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="10" required placeholder="Message"></textarea>
+                    <input type="hidden" name="_template" value="table">
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
